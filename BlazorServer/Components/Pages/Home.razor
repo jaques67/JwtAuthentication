@@ -1,0 +1,15 @@
+﻿@page "/"
+
+@attribute [Authorize]
+
+@rendermode InteractiveServer
+
+<PageTitle>Home</PageTitle>
+
+<h1>Hello, world!</h1>
+
+Welcome to your new app.
+
+<AuthorizeView>
+    <p>You are authorized</p>
+</AuthorizeView>
