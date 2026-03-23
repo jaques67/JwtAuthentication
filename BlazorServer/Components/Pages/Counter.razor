@@ -1,5 +1,6 @@
 ﻿@page "/counter"
 @rendermode InteractiveServer
+@attribute [Authorize (Roles = "Admin")]
 
 <PageTitle>Counter</PageTitle>
 
